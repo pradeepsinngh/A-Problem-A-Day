@@ -1,0 +1,9 @@
+
+n = int(input())
+d = dict(input().split() for _ in range(n))
+for i in range(n):
+    x = input()
+    try:
+        print(x+'='+d[x])
+    except KeyError:
+        print('Not found')
