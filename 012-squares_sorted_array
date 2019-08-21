@@ -1,0 +1,26 @@
+# Prob: Given an array of integers A sorted in non-decreasing order, return an array of the squares of each number, also in sorted non-decreasing order.
+
+# ------------------------------
+# Approach 1: Sort
+
+class Solution(object):
+    def sortedSquares(self, A):
+        """
+        :type A: List[int]
+        :rtype: List[int]
+        """
+        
+        sqA = [num**2 for num in A]
+        
+        return sorted(sqA)
+        
+# Time Complexity: O(NlogN)
+# Space Complexity: O(N)
+
+# ------------------------------
+
+
+# Approach 2: Two pointers
+
+# Time Complexity: O(N)
+# Space Complexity: O(N)
