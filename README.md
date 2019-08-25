@@ -8,9 +8,14 @@ Daily coding problems (from leetcode, hackerank etc.) organized by type, topic a
 
 ### By topic:
 - Data Structure
+  - array
+  - linked list
+  - strings
+  
 - Algorithms
+  - sorting
 
-### By Platform:
+### By platform:
 - LeetCode
 - HackerRank
 - GeeksforGeeks
