@@ -2,12 +2,12 @@
 
 Daily coding problems organized by type, topic and platform.
 
-## By type:
+### By type:
 - easy
 - medium
 - hard
 
-## By topic:
+### By topic:
 - Data Structure
   - array
   - linked list
@@ -16,12 +16,12 @@ Daily coding problems organized by type, topic and platform.
 - Algorithms
   - sorting
 
-## By platform:
+### By platform:
 - LeetCode
 - HackerRank
 - GeeksforGeeks
 
-## Miscellaneous:
+### Miscellaneous:
 - [10 days of statistics](https://github.com/pradeepsinngh/A-Problem-A-Day/tree/master/10-days-of-statistics)
 - [30 days of code](https://github.com/pradeepsinngh/A-Problem-A-Day/tree/master/30-days-of-code)
 - [python practice](https://github.com/pradeepsinngh/A-Problem-A-Day/tree/master/python-practice)
