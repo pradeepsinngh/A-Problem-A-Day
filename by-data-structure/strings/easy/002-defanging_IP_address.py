@@ -17,8 +17,6 @@
 # as the split array, however, this equates to a time complexity of O(2*n)=O(n).
 
 
-
-
 # Sol1: 
 class Solution(object):
     def defangIPaddr(self, address):
@@ -38,3 +36,6 @@ class Solution(object):
         """
         
         return ('[.]'.join(address.split('.')))
+
+    
+    
