@@ -11,3 +11,13 @@ class Solution(object):
         """
        
         return address.replace('.', '[.]')
+    
+ # Sol2:
+class Solution(object):
+    def defangIPaddr(self, address):
+        """
+        :type address: str
+        :rtype: str
+        """
+        
+        return ('[.]'.join(address.split('.')))
