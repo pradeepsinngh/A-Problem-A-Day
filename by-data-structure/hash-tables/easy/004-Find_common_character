@@ -1,0 +1,25 @@
+# Prob: Find Common Characters
+# Given an array A of strings made only from lowercase letters, return a list of all characters that show up in all strings 
+# within the list (including duplicates).  
+
+# For example, if a character occurs 3 times in all strings but not 4 times, you need to include that character three times 
+# in the final answer.
+
+# Sol1: Use Hashmaps
+
+Time Complx: O(N)
+Space Complx: O(N)
+
+class Solution(object):
+    def commonChars(self, A):
+        """
+        :type A: List[str]
+        :rtype: List[str]
+        """
+        
+        common_counter = collections.Counter(A[0])
+        
+        for str in A[1:]:
+            common_counter &= collections.Counter(str)
+            
+        return list(common_counter.elements())
