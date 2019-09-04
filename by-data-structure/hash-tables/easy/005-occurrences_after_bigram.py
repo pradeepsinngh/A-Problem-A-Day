@@ -13,6 +13,9 @@ Output: ["girl","student"]
 
 # Sol1: 
 
+Time Complx: O(N)
+Space Complx: O(N)
+
 class Solution(object):
     def findOcurrences(self, text, first, second):
         """
