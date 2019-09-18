@@ -16,11 +16,6 @@ Daily coding problems organized by type, topic and platform.
 - Algorithms
   - sorting
 
-### By platform:
-- LeetCode
-- HackerRank
-- GeeksforGeeks
-
 ### Miscellaneous:
 - [10 days of statistics](https://github.com/pradeepsinngh/A-Problem-A-Day/tree/master/10-days-of-statistics)
 - [30 days of code](https://github.com/pradeepsinngh/A-Problem-A-Day/tree/master/30-days-of-code)
