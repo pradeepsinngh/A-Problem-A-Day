@@ -9,12 +9,13 @@ Daily coding problems organized by type, topic and platform.
 
 ### By topic:
 - Data Structure
-  - array
-  - linked list
-  - strings
+  - [array](https://github.com/pradeepsinngh/A-Problem-A-Day/tree/master/by-data-structure/arrays)
+  - [linked list](https://github.com/pradeepsinngh/A-Problem-A-Day/tree/master/by-data-structure/linked-list)
+  - [strings](https://github.com/pradeepsinngh/A-Problem-A-Day/tree/master/by-data-structure/strings)
+  - [hash tables](https://github.com/pradeepsinngh/A-Problem-A-Day/tree/master/by-data-structure/hash-tables)
   
 - Algorithms
-  - sorting
+  - [sort](https://github.com/pradeepsinngh/A-Problem-A-Day/tree/master/by-algorithms/sort)
 
 ### Miscellaneous:
 - [10 days of statistics](https://github.com/pradeepsinngh/A-Problem-A-Day/tree/master/10-days-of-statistics)
