@@ -34,3 +34,5 @@ class Solution(object):
             return -1
         else:
             return haystack.index(needle)
+
+        
