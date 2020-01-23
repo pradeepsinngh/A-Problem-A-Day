@@ -11,9 +11,9 @@ When we are asked to solve questions related to linked list, it is widely accept
 
 3. Possible Edge cases in LinkedList:
 
-    The linked list is empty, i.e. the head node is None.
-    Multiple nodes with the target value in a row.
-    The head node has the target value.
-    The head node, and any number of nodes immediately after it have the target value.
-    All of the nodes have the target value.
-    The last node has the target value.
+    - The linked list is empty, i.e. the head node is None.
+    - Multiple nodes with the target value in a row.
+    - The head node has the target value.
+    - The head node, and any number of nodes immediately after it have the target value.
+    - All of the nodes have the target value.
+    - The last node has the target value.
