@@ -11,7 +11,7 @@
   - Supports 2 opperation: ENQUEUE, DEQUEUE
   - If queue is empty, dequeue returns null or throws an exception.
    
-  - **DEQUE**: Double ended queue, is a doubly linked list in which all insertion and deletion operations are from one of the two ends of the list.
+ **DEQUE**: Double ended queue, is a doubly linked list in which all insertion and deletion operations are from one of the two ends of the list.
    - Insertion from front is called - Push
    - Insertion from back is called  - Inject
    - Deletion from front is called - Pop
