@@ -22,3 +22,13 @@ Daily coding problems organized by type, topic and platform.
 - [30 days of code](https://github.com/pradeepsinngh/A-Problem-A-Day/tree/master/30-days-of-code)
 - [python practice](https://github.com/pradeepsinngh/A-Problem-A-Day/tree/master/python-practice)
 
+### Tme and Space Complexity:
+| Data Structure |     Insertion  | Deletion      | Search    | 
+| :---           |     :---:      |    :---:      |      ---: |
+| Array          | git status     | git status    |           |
+| Stack          | git diff       | git diff      |           |
+| Queue          | git diff       | git diff      |           |
+| Max Heap       | O (log n)      | O (log n)     |   O(1) (max element)   |
+| Min Heap       | O (log n)      | O (log n)     |   O(1) (max element)   |
+| Binary Tree    | git diff       | git diff      |           |
+| Heap           | git diff       | git diff      |           |
