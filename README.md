@@ -24,12 +24,12 @@ Daily coding problems organized by type, topic and platform.
 
 ### Tme and Space Complexity:
 | Data Structure |     Insertion  | Deletion      | Search    |  Access |
-| :---           |     :---:      |    :---:      |      ---: |
+| :---           |     :---:      |    :---:      |      ---: |         |
 | Array          |   O (n)        | O (n)         |  O (n)    | O (1)   |
-| Max Heap       | O (log n)      | O (log n)     |   O(1) (max element)   |
-| Min Heap       | O (log n)      | O (log n)     |   O(1) (max element)   |
-| Binary Search Tree    | O(log n)       |  O(log n)   |   O(log n)        |
-| Linked List           | O (n)       | O (n)     |      O (n)     |
+| Max Heap       | O (log n)      | O (log n)     |   O(1) (max element)   | |
+| Min Heap       | O (log n)      | O (log n)     |   O(1) (max element)   | |
+| Binary Search Tree    | O(log n)       |  O(log n)   |   O(log n)        | |
+| Linked List           | O (n)       | O (n)     |      O (n)     | |
 
 | Data Structure |     Push       | Pop           | Top       |
 | :---           |     :---:      |    :---:      |      ---: |
