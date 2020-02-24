@@ -23,12 +23,15 @@ Daily coding problems organized by type, topic and platform.
 - [python practice](https://github.com/pradeepsinngh/A-Problem-A-Day/tree/master/python-practice)
 
 ### Tme and Space Complexity:
-| Data Structure |     Insertion  | Deletion      | Search    | 
+| Data Structure |     Insertion  | Deletion      | Search    |  Access |
 | :---           |     :---:      |    :---:      |      ---: |
-| Array          | git status     | git status    |           |
-| Stack          | git diff       | git diff      |           |
-| Queue          | git diff       | git diff      |           |
+| Array          |   O (n)        | O (n)         |  O (n)    | O (1)   |
 | Max Heap       | O (log n)      | O (log n)     |   O(1) (max element)   |
 | Min Heap       | O (log n)      | O (log n)     |   O(1) (max element)   |
-| Binary Tree    | git diff       | git diff      |           |
-| Heap           | git diff       | git diff      |           |
+| Binary Search Tree    | O(log n)       |  O(log n)   |   O(log n)        |
+| Linked List           | O (n)       | O (n)     |      O (n)     |
+
+| Data Structure |     Push       | Pop           | Top       |
+| :---           |     :---:      |    :---:      |      ---: |
+| Stack          | O(1)           | O(1)          |     O(1)  |
+| Queue          | O(1)           | O(1)          |   O(1)    |
