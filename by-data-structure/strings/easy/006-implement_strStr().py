@@ -35,4 +35,27 @@ class Solution(object):
         else:
             return haystack.index(needle)
 
+# Sol3 ;
+class Solution(object):
+    def strStr(self, haystack, needle):
+        """
+        :type haystack: str
+        :type needle: str
+        :rtype: int
+        """
+        
+        if haystack == needle:
+            return 0
+        
+        if len(needle) == 0:
+            return 0
+        
+        n = len(haystack)
+        m = len(needle)
+        
+        for i in range(n-m+1):
+            if haystack[i:i+m] == needle:
+                return i
+        
+        return -1  
         
