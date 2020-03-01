@@ -1,8 +1,8 @@
-# A-Problem-A-Day
+## A-Problem-A-Day
 
 Daily coding problems organized by type and topic:
 
-### By topic:
+#### By topic:
 - Data Structure
   - [Array](https://github.com/pradeepsinngh/A-Problem-A-Day/tree/master/by-data-structure/arrays)
   - [Linked list](https://github.com/pradeepsinngh/A-Problem-A-Day/tree/master/by-data-structure/linked-list)
@@ -17,12 +17,12 @@ Daily coding problems organized by type and topic:
   - [sort](https://github.com/pradeepsinngh/A-Problem-A-Day/tree/master/by-algorithms/sort)
   - [Search]()
 
-### Miscellaneous:
+#### Miscellaneous:
 - [10 days of statistics](https://github.com/pradeepsinngh/A-Problem-A-Day/tree/master/10-days-of-statistics)
 - [30 days of code](https://github.com/pradeepsinngh/A-Problem-A-Day/tree/master/30-days-of-code)
 - [python practice](https://github.com/pradeepsinngh/A-Problem-A-Day/tree/master/python-practice)
 
-### Time and Space Complexity:
+#### Time and Space Complexity:
 | Data Structure |     Insertion  | Deletion      | Search    |  Access |
 | :---           |     :---:      |    :---:      |    :---:  |    ---: |
 | Array          |   O (n)        | O (n)         |  O (n)    | O (1)   |
@@ -36,11 +36,13 @@ Daily coding problems organized by type and topic:
 | Stack          | O(1)           | O(1)          |     O(1)  |
 | Queue          | O(1)           | O(1)          |   O(1)    |
 
-### Sorting Algoritms 
+#### Sorting Algoritms 
 | Sort |     Time  | Space  |
 | :--- |     :---: |   ---: |
 | Bubble Sort | O(n^2)  | O(1)|
 | Insertion Sort | O(n^2)  | O(1)|
 | Selection Sort | O(n^2)  | O(1)|
-| | | |
-| | | |
+| Quick Sort|Θ(n log(n)) | O(log n) |
+| Merge Sort |Θ(n log(n)) |  O(n)|
+| Heap Sort |Θ(n log(n)) |  O(1)|
+| Bucket Sort |Θ(n + k) |  O(n)|
