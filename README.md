@@ -18,9 +18,10 @@ Daily coding problems organized by type and topic:
   - [Search]()
 
 #### Miscellaneous:
-- [10 days of statistics](https://github.com/pradeepsinngh/A-Problem-A-Day/tree/master/10-days-of-statistics)
-- [30 days of code](https://github.com/pradeepsinngh/A-Problem-A-Day/tree/master/30-days-of-code)
-- [python practice](https://github.com/pradeepsinngh/A-Problem-A-Day/tree/master/python-practice)
+- [30 day Leetcoding Challenge ](https://github.com/pradeepsinngh/A-Problem-A-Day/tree/master/leetcode-30day-challenge)
+- [10 days of Statistics](https://github.com/pradeepsinngh/A-Problem-A-Day/tree/master/10-days-of-statistics)
+- [30 days of Code](https://github.com/pradeepsinngh/A-Problem-A-Day/tree/master/30-days-of-code)
+- [Python Practice](https://github.com/pradeepsinngh/A-Problem-A-Day/tree/master/python-practice)
 
 #### Time and Space Complexity:
 | Data Structure |     Insertion  | Deletion      | Search    |  Access |
