@@ -26,3 +26,24 @@ class Solution(object):
                 if nums[i] == 0:
                     nums[i+1], nums[i] = nums[i], nums[i+1]
 
+
+                    
+# Sol 2: Two pointer approach
+class Solution(object):
+    def moveZeroes(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: None Do not return anything, modify nums in-place instead.
+        """
+        # Input: [0,1,0,3,12]
+        i = 0
+        j = 0
+        while(i < len(nums)):
+            if nums[j] != 0:
+                j += 1
+            else:
+                if nums[i] != 0:
+                    nums[j], nums[i] = nums[i], nums[j]
+                    j += 1
+            i += 1
+            
