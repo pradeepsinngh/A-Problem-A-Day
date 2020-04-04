@@ -12,7 +12,7 @@ Minimize the total number of operations.
 
 ```
 
-Sol 1: Using two for loops
+# Sol 1: Using two for loops
 class Solution(object):
     def moveZeroes(self, nums):
         """
