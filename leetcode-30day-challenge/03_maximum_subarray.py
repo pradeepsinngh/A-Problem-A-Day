@@ -14,7 +14,7 @@ which is more subtle.
 
 ```
 
-# Sol1 : 
+# Sol1 : Kadanes Algorithm
 
 class Solution(object):
     def maxSubArray(self, nums):
@@ -35,7 +35,6 @@ class Solution(object):
             maxSum = max(currSum, maxSum)
         return maxSum
         
- # Sol 2 :
  
  
  
