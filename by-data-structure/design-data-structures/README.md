@@ -2,7 +2,7 @@
 
 Python has four basic inbuilt data structures namely:
  - Lists, 
- - Dictionary, 
+ - Dictionary 
  - Tuple and 
  - Set.
 
