@@ -1,4 +1,4 @@
-```
+'''
 # Prob: Populating Next Right Pointers in Each Node
 
 You are given a perfect binary tree where all leaves are on the same level, and every parent has two children. 
@@ -6,10 +6,11 @@ Populate each next pointer to point to its next right node. If there is no next 
 should be set to NULL.
 
 Initially, all next pointers are set to NULL.
-```
+'''
 
+## -----------------------
+# Sol 1: 
 
-"""
 # Definition for a Node.
 class Node(object):
     def __init__(self, val=0, left=None, right=None, next=None):
@@ -18,6 +19,7 @@ class Node(object):
         self.right = right
         self.next = next
 """
+
 class Solution(object):
     def connect(self, root):
         """
@@ -34,3 +36,8 @@ class Solution(object):
             self.connect(root.right)
         
         return root
+
+
+## -----------------------
+# Sol 2:
+
