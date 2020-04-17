@@ -47,3 +47,28 @@ class Solution(object):
         
         
   # Sol 2: 
+
+class Solution(object):
+    def checkValidString(self, s):
+        """
+        :type s: str
+        :rtype: bool
+        """
+        left = right = 0
+        
+        for st in s:
+            if st == '(':
+                left += 1
+            else:
+                left -= 1
+            
+            if st != ')':
+                right += 1
+            else:
+                right -= 1
+                
+            if right < 0:
+                break
+            left = max(left, 0)
+        return left == 0
+                
