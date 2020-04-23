@@ -13,6 +13,9 @@ Explanation: Three palindromic strings: "a", "b", "c".
 
 '''
 
+# Time - O(N^2)
+# Space - O(1)
+
 class Solution(object):
     def countSubstrings(self, s):
         """
