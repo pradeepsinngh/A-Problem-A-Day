@@ -22,9 +22,28 @@ class Solution(object):
         :type prices: List[int]
         :rtype: int
         """
+        T_i10 = 0
+        T_i11 = float('-inf')
+        
+        for price in prices:
+            T_i10 = max(T_i10, T_i11 + price)
+            T_i11 = max(T_i11, -price)
+        return T_i10
+
+
+## -----------------------------------
+## -----------------------------------
+
+class Solution(object):
+    def maxProfit(self, prices):
+        """
+        :type prices: List[int]
+        :rtype: int
+        """
         
         min_so_far, profit = float('Inf'), 0
         for price in prices:
             min_so_far = min(price, min_so_far)
             profit = max(profit, price - min_so_far)
+
         return profit
