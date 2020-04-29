@@ -1,5 +1,7 @@
 ## A-Problem-A-Day
 
+![](/misc/images/leetcode.png)
+
 Daily coding problems organized by type and topic:
 
 #### By topic:
