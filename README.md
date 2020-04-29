@@ -1,6 +1,6 @@
 ## A-Problem-A-Day
 
-![](/misc/images/leetcode.png)
+![](/misc/images/leetcode-algoexpert.png)
 
 Daily coding problems organized by type and topic:
 
